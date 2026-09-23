@@ -34,7 +34,7 @@ El sistema valida identidad, disponibilidad y estado de la bicicleta, y registra
 
 
 ## 📬 Contacto
-- 📧  soportesoypamlelo@miniappbici.com
+- 📧 soypamelo1974@gmail.com
 - 📞 0800-123-456  
 
 ---
