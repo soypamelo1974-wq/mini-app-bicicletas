@@ -1,0 +1,19 @@
+Conoce a Miniapp Bici
+Tu acceso fácil y seguro a bicicletas municipales. Escanea tu QR, valida tu identidad y disfruta de la ciudad.
+
+Preguntas frecuentes
+- ¿Cómo retiro una bicicleta? Escanea tu QR en la terminal.
+- ¿Qué necesito? Registrarte con tu documento y email.
+- ¿Qué pasa si se rompe? Reporta el incidente en la app.
+
+Contacto
+📧 soporte@miniappbici.com  
+📞 0800-123-456
+
+Políticas de privacidad
+Tus datos se usan solo para validar identidad y registrar alquileres. Nunca se comparten con terceros.
+
+Bases y condiciones
+El usuario es responsable de la bicicleta durante el período de uso. El tiempo máximo de alquiler es de 2 horas.
+
+

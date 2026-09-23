@@ -1,0 +1,8 @@
+miniapp/
+├── app.py              # Punto de entrada Flask
+├── models.py           # ORM o consultas MySQL
+├── auth.py             # Registro, login, logout
+├── crud.py             # Operaciones CRUD sobre la tabla principal
+├── templates/          # HTML (Jinja2)
+├── static/             # CSS, JS
+└── requirements.txt

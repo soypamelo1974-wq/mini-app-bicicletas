@@ -1,0 +1,8 @@
+CREATE TABLE qr_tokens (
+  id INT AUTO_INCREMENT PRIMARY KEY,
+  userId INT,
+  token VARCHAR(255) UNIQUE,
+  expiresAt TIMESTAMP,
+  isUsed BOOLEAN DEFAULT FALSE,
+  FOREIGN KEY (userId) REFERENCES users(id)
+);
