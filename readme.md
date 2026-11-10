@@ -1,66 +1,89 @@
-# 🚲 Miniapp Bici
+# 🚲 MiniApp Bici
 
-Un acceso fácil y seguro a bicicletas miniapp .
-Escanea tu QR, valida tu identidad y disfruta de la ciudad.
+Sistema de préstamo de bicicletas municipales mediante autenticación por código QR.
+
+MiniApp Bici permite a los usuarios acceder de forma rápida, segura y sencilla a bicicletas disponibles en estaciones municipales, registrando cada préstamo y devoluciones de manera automatizada.
 
 ---
 
 ## 📖 Índice
-- [Conoce a Miniapp Bici](#conoce-a-miniapp-bici)
-- [Preguntas frecuentes](#preguntas-frecuentes)
-- [Contacto](#contacto)
-- [Políticas de privacidad](#políticas-de-privacidad)
-- [Bases y condiciones](#bases-y-condiciones)
-- [Instalación](#instalación)
-- [Uso](#uso)
-- [Tecnologías utilizadas](#tecnologías-utilizadas)
-- [Personas contribuyentes](#personas-contribuyentes)
-- [Licencia](#licencia)
+
+- [Descripción](#-descripción)
+- [Características](#-características)
+- [Preguntas Frecuentes](#-preguntas-frecuentes)
+- [Tecnologías Utilizadas](#-tecnologías-utilizadas)
+- [Instalación](#-instalación)
+- [Uso](#-uso)
+- [Contacto](#-contacto)
+- [Política de Privacidad](#-política-de-privacidad)
+- [Licencia](#-licencia)
 
 ---
 
-## 🌟 Conoce a Miniapp Bici
-Miniapp Bici permite a los usuarios retirar bicicletas de una terminal municipal mediante autenticación con QR.  
-El sistema valida identidad, disponibilidad y estado de la bicicleta, y registra el alquiler con vencimiento a 24 horas.
+## 📋 Descripción
+
+MiniApp Bici es una aplicación web desarrollada para gestionar el préstamo de bicicletas en estaciones municipales.
+
+El sistema permite:
+
+- Validar la identidad de los usuarios mediante QR.
+- Consultar la disponibilidad de bicicletas.
+- Registrar préstamos y devoluciones.
+- Gestionar incidencias o reportes de daños.
+- Controlar el tiempo máximo de alquiler.
 
 ---
 
-## ❓ Preguntas frecuentes
-- **¿Cómo retiro una bicicleta?** Escanea tu QR en la terminal.  
-- **¿Qué necesito?** Registrarte con tu documento y email.  
-- **¿Qué pasa si se rompe?** Reporta el incidente en la app.  
+## ✨ Características
+
+✅ Autenticación mediante código QR.
+
+✅ Registro automático de préstamos.
+
+✅ Control de disponibilidad de bicicletas.
+
+✅ Validación de usuarios registrados.
+
+✅ Gestión de incidencias.
+
+✅ Interfaz web sencilla e intuitiva.
 
 ---
 
+## ❓ Preguntas Frecuentes
 
-## 📬 Contacto
-- 📧 soypamelo1974@gmail.com
-- 📞 0800-123-456  
+### ¿Cómo retiro una bicicleta?
+Escaneando tu código QR en la terminal habilitada.
 
----
+### ¿Qué necesito para utilizar el servicio?
+Registrarte con tu documento de identidad y correo electrónico.
 
-## 🔒 Políticas de privacidad
-Tus datos se usan solo para validar identidad y registrar alquileres. Nunca se comparten con terceros.
-
----
-
-## 📜 Bases y condiciones
-- El usuario es responsable de la bicicleta durante el período de uso.  
-- El tiempo máximo de alquiler es de 24 horas.  
-- Penalizaciones aplican por daños o incumplimiento.  
+### ¿Qué sucede si una bicicleta presenta daños?
+Debes informar la incidencia a través del sistema para que sea revisada.
 
 ---
 
-## 🛠️ Tecnologías utilizadas 
-Python + Flask
+## 🛠️ Tecnologías Utilizadas
 
-MySQL
-
-HTML/CSS
-
-QR Codes (qrcode library)
+- Python
+- Flask
+- MySQL
+- HTML5
+- CSS3
+- Biblioteca `qrcode`
 
 ---
+
+## ⚙️ Instalación
+
+```bash
+git clone https://github.com/soypamelo1974-wq/mini-app-bicicletas.git
+
+cd mini-app-bicicletas
+
+pip install -r requirements.txt
+
+flask run
 
 ## ⚙️ Instalación 
 ```bash
